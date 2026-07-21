@@ -2,12 +2,12 @@
 // Renseigner les valeurs depuis la console Firebase (Paramètres du projet > Vos applications > Web).
 // Tant que apiKey est vide, l'application fonctionne en MODE DÉMO (stockage local navigateur).
 export const firebaseConfig = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyCoyi-T8ayowpaGnAU8PE90wuDz0qcMo7o",
+  authDomain: "revue-impact-ft.firebaseapp.com",
+  projectId: "revue-impact-ft",
+  storageBucket: "revue-impact-ft.firebasestorage.app",
+  messagingSenderId: "394234504329",
+  appId: "1:394234504329:web:081d809188166e884f9258"
 };
 
 export const CAMPAGNE = "2026"; // millésime des ambitions
