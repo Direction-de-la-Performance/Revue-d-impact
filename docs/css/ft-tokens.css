@@ -1,0 +1,33 @@
+/* France Travail Design System - Tokens (v1.12) */
+@font-face { font-family:'Marianne'; src:url('../fonts/Marianne-Light.woff2') format('woff2'); font-weight:300; font-display:swap; }
+@font-face { font-family:'Marianne'; src:url('../fonts/Marianne-Regular.woff2') format('woff2'); font-weight:400; font-display:swap; }
+@font-face { font-family:'Marianne'; src:url('../fonts/Marianne-Medium.woff2') format('woff2'); font-weight:500; font-display:swap; }
+@font-face { font-family:'Marianne'; src:url('../fonts/Marianne-Bold.woff2') format('woff2'); font-weight:700; font-display:swap; }
+@font-face { font-family:'Marianne'; src:url('../fonts/Marianne-ExtraBold.woff2') format('woff2'); font-weight:800; font-display:swap; }
+
+:root {
+  --ft-navy:#0D1440; --ft-navy-light:#1A2255;
+  --ft-indigo:#293378; --ft-indigo-dark:#1C2456; --ft-indigo-light:#E3E5F1;
+  --ft-violet:#7E58A0; --ft-violet-dark:#5E3D7C; --ft-violet-light:#ECE6F2;
+  --ft-jaune:#FFCC52; --ft-jaune-dark:#E0A800; --ft-jaune-light:#FFF4D6;
+  --ft-bleu:#406BDE; --ft-bleu-light:#E2E8FB;
+  --ft-orange:#D96B00; --ft-orange-light:#FCEADB;
+  --ft-rouge:#D92424; --ft-rouge-light:#FBE3E3;
+  --ft-bordeaux:#5C0F38; --ft-bordeaux-light:#EFDCE6;
+  --ft-sable:#F5F2EE; --ft-sable-dark:#E6E1DB;
+  --ft-gray-50:#F8F9FA; --ft-gray-100:#F1F3F5; --ft-gray-200:#E5E7EB;
+  --ft-gray-300:#D1D5DB; --ft-gray-400:#9CA3AF; --ft-gray-500:#6B7280;
+  --ft-gray-600:#4B5563; --ft-gray-700:#374151;
+  --ft-white:#FFF;
+  --ft-success:#1B7F3B; --ft-success-bg:#E3F4E9;
+  --ft-warning:#D96B00; --ft-warning-bg:#FCEADB;
+  --ft-error:#D92424; --ft-error-bg:#FBE3E3;
+  --ft-info:#406BDE; --ft-info-bg:#E2E8FB;
+  --ft-fg-1:var(--ft-navy); --ft-fg-2:var(--ft-gray-700); --ft-fg-3:var(--ft-gray-500);
+  --ft-bg-1:var(--ft-white); --ft-bg-3:var(--ft-sable);
+  --ft-border:var(--ft-gray-200); --ft-border-focus:var(--ft-bleu);
+  --ft-font:'Marianne',Helvetica,Arial,sans-serif;
+  --ft-radius-sm:4px; --ft-radius-md:8px; --ft-radius-lg:16px; --ft-radius-pill:999px;
+  --ft-shadow-sm:0 1px 2px rgba(17,24,39,.06),0 1px 3px rgba(17,24,39,.05);
+  --ft-shadow-md:0 4px 8px rgba(17,24,39,.06),0 2px 4px rgba(17,24,39,.05);
+}
