@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Revue d'impact : France Travail</title>
+<link rel="icon" type="image/svg+xml" href="assets/logo-dir-perf.svg">
+<link rel="stylesheet" href="css/ft-tokens.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="ft-header">
+  <div class="ft-header__inner">
+    <img class="ft-header__logo" src="assets/logo-france-travail.svg" alt="France Travail">
+    <div class="ft-header__title">
+      <strong>Revue d'impact</strong>
+      <span><img src="assets/logo-dir-perf.svg" alt="" class="dp-logo">Direction de la Performance</span>
+    </div>
+    <div class="ft-header__ctx" id="ctx-structure"></div>
+  </div>
+</header>
+
+<nav class="steps" aria-label="Navigation">
+  <div class="steps__inner">
+    <button class="step" data-view="accueil">Accueil</button>
+    <button class="step" data-view="resultats">Résultats et ambitions</button>
+    <button class="step" data-view="revue">Revue d'impact</button>
+  </div>
+</nav>
+
+<main id="app" aria-live="polite"></main>
+
+<footer class="ft-footer">
+  <div class="ft-footer__inner">
+    <span><img src="assets/logo-dir-perf.svg" alt="" class="dp-logo">France Travail - Direction de la Performance</span>
+    <span>Campagne des ambitions 2026 - données internes, diffusion restreinte</span>
+  </div>
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
