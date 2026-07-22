@@ -19,3 +19,4 @@ export const ANNEE_BILAN = "2025"; // année du diagnostic
 // dans Firebase Console > Authentication > Users, avec exactement cet email et ce mot
 // de passe (voir README).
 export const ACCES_EMAIL = "acces.reseau@revue-impact.ft";
+export const ADMIN_EMAIL = "admin@revue-impact.ft";
