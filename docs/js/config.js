@@ -10,8 +10,8 @@ export const firebaseConfig = {
   appId: "1:394234504329:web:081d809188166e884f9258"
 };
 
-export const CAMPAGNE = "2026"; // millésime des ambitions
-export const ANNEE_BILAN = "2025"; // année du diagnostic
+export const CAMPAGNE = "2027"; // millésime des ambitions
+export const ANNEE_BILAN = "2026"; // année du diagnostic
 
 // Accès partagé : un compte Firebase unique sert de "porte d'entrée" pour tous les
 // utilisateurs, qui ne saisissent que le mot de passe (l'email ci-dessous est un
