@@ -1,3 +1,0 @@
-# Données confidentielles : ne jamais pousser sur GitHub.
-# Ce dossier sert uniquement à l'import initial dans Firestore (page admin-import-referentiel.html).
-/data-confidentielle/
