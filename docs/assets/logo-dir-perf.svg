@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 1010" width="1024" height="1024">
+  <defs>
+    <!-- Masque : coupe l'hexagone au passage de la fleche -->
+    <mask id="gapArrow">
+      <rect width="1010" height="1010" fill="white"/>
+      <line x1="115" y1="90" x2="470" y2="470" stroke="black" stroke-width="74" stroke-linecap="round"/>
+    </mask>
+  </defs>
+
+  <!-- Hexagone (navy, coins arrondis) -->
+  <path d="M 807.5 457.4 Q 835.0 505.0 807.5 552.6 L 697.5 743.2 Q 670.0 790.8 615.0 790.8 L 395.0 790.8 Q 340.0 790.8 312.5 743.2 L 202.5 552.6 Q 175.0 505.0 202.5 457.4 L 312.5 266.8 Q 340.0 219.2 395.0 219.2 L 615.0 219.2 Q 670.0 219.2 697.5 266.8 Z"
+        fill="none" stroke="#10165A" stroke-width="34" mask="url(#gapArrow)"/>
+
+  <!-- Cercles concentriques (meme epaisseur) -->
+  <circle cx="505" cy="510" r="199" fill="none" stroke="#42A9D6" stroke-width="44"/>
+  <circle cx="505" cy="510" r="140" fill="none" stroke="#FBD101" stroke-width="44"/>
+  <circle cx="505" cy="510" r="81" fill="none" stroke="#F97EB7" stroke-width="44"/>
+
+  <!-- Centre rouge -->
+  <circle cx="505" cy="510" r="44" fill="#D8101F"/>
+
+  <!-- Fleche (navy) -->
+  <line x1="128" y1="103" x2="404" y2="401" stroke="#10165A" stroke-width="44"/>
+  <polygon points="516,521 332,440 449,331" fill="#10165A"/>
+</svg>

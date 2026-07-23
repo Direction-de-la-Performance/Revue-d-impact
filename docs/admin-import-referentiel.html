@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Import référentiel : Revue d'impact</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="css/ft-tokens.css">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="ft-header">
+  <div class="ft-header__inner">
+    <a href="index.html" class="btn-retour" title="Retour à l'accueil">&larr; Retour</a>
+    <img class="ft-header__logo" src="assets/logo-france-travail.svg" alt="France Travail">
+    <div class="ft-header__title"><strong>Import du référentiel</strong><span><img src="assets/logo-dir-perf.svg" alt="" class="dp-logo">Outil interne : Direction de la Performance</span></div>
+  </div>
+</header>
+<main>
+  <div class="help"><b>Usage.</b> Cette page importe le référentiel (agences, DD, pondérations) dans Firestore, en une fois, depuis un fichier local <code>referentiel.json</code> qui ne quitte jamais votre poste (il n'est jamais envoyé sur GitHub). À utiliser une seule fois à la mise en place, puis à chaque mise à jour du référentiel. Réservée aux personnes habilitées.</div>
+  <div class="card">
+    <div class="field"><label for="file">Fichier referentiel.json</label><input type="file" id="file" accept="application/json"></div>
+    <button class="btn btn--primary" id="btn-run">Importer dans Firestore</button>
+  </div>
+  <div class="card"><h2>Journal</h2><pre id="log" style="white-space:pre-wrap;font-family:var(--ft-font-mono, monospace);font-size:12px;max-height:320px;overflow:auto"></pre></div>
+</main>
+<script type="module" src="js/admin-import-referentiel.js"></script>
+</body>
+</html>
